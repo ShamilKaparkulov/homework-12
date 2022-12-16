@@ -1,0 +1,52 @@
+.App.white {
+  transition: background-color 0.5s;
+  background-color: white;
+}
+
+.App.black {
+  background-color: rgba(0, 0, 0, 0.752);
+  transition: background-color 0.5s;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+.switch {
+  width: 80px;
+  height: 30px;
+  background: linear-gradient(blue, aqua);
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.light {
+  width: 29px;
+  height: 27px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 7%;
+  left: 3px;
+  transition: transform 0.5s;
+}
+.night {
+  width: 80px;
+  height: 30px;
+  background: linear-gradient(rebeccapurple, rgb(64, 48, 81));
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.night .light {
+  transform: translate(44px);
+  background: #f5f5f5;
+  color: rgb(64, 48, 81);
+}
